@@ -1,0 +1,227 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: 24px;
+    text-align: left;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0073e6;
+    min-width: 160px;
+    z-index: 1;
+    left: 0;
+    top: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0054c2;
+    color: white;
+}
+/* Style other sections (hero, destinations, packages, blog, contact) with relevant content and styling */
+
+body {
+    background-color: #84add7;
+
+}
+.center-search {
+    text-align: center;
+    margin: 20px 0; /* Optional margin for spacing */
+}
+
+.hi
+{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-items: center;
+    align-content: center;
+}
+
+.cta-button:hover {
+    background-color: #0054c2;
+    align-content: center;
+}
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+    position: relative;
+}
+.maldives {
+    text-align: left;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+
+
+
+.image-container:hover .image {
+    transform: scale(1.1); /* Optional: You can adjust the scale factor */
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+.goa {
+    text-align: center;
+}
+
+.image-container {
+    position: absolute;
+    display: inline-block;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+
+
+
+.image-container:hover .image {
+    transform: scale(1.1); /* Optional: You can adjust the scale factor */
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+.paris, .new-york {
+    text-align: center;
+    margin: 20px 0; /* Optional margin for spacing */
+}
+
+.paris .image-container,
+.new-york .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.paris .image,
+.new-york .image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.paris .image-container:hover .image,
+.new-york .image-container:hover .image {
+    transform: scale(1.1); /* Optional: You can adjust the scale factor */
+}
+
+.paris .image-container:hover .overlay,
+.new-york .image-container:hover .overlay {
+    opacity: 1;
+}
+
+
+.destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destination {
+    width: calc(50% - 20px); /* Two destinations per row with some spacing */
+    margin: 10px;
+    text-align: center;
+}
+
+.destination .image-container {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+}
+
+.destination .image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+.hero-dots{
+    width: 100%;
+    display: flex;
+    justify-content: var(--hero-dots-justify-content, center);
+    align-items: var(--hero-dots-align-items, center);
+    gap: var(--hero-dots-gap, 5px);
+    padding: var(--hero-dots-padding, 5px 0);
+}
+
+
